@@ -1,4 +1,6 @@
-# Smartmeter
+# Smart Meter
+
+<a href="https://godoc.org/github.com/marceldegraaf/smartmeter"><img src="https://godoc.org/github.com/marceldegraaf/smartmeter?status.svg" alt="GoDoc"></a>
 
 This is a data parser for smart electricity meters, intended to be run on a Raspberry Pi. It is very much under construction.
 
