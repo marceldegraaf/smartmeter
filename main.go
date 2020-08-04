@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/marceldegraaf/smartmeter/parser"
-	"github.com/marceldegraaf/smartmeter/poller"
-	"github.com/marceldegraaf/smartmeter/store"
+	"marceldegraaf.net/smartmeter/parser"
+	"marceldegraaf.net/smartmeter/poller"
+	"marceldegraaf.net/smartmeter/store"
 )
 
 func main() {
