@@ -29,12 +29,16 @@ var (
 func Initialize() error {
 	var err error
 
+	_, err = os.Stat(device)
+	if os.IsNotExist(err) {
+		log.Fatalf("Device %s does not exist", device)
+	}
+
 	config = &serial.Config{Name: device, Baud: rate}
 
 	usb, err = serial.OpenPort(config)
 	if err != nil {
-		log.Errorf("Could not open serial interface: %s", err)
-		return err
+		log.Fatalf("Could not open serial device: %s", err)
 	}
 
 	reader = bufio.NewReader(usb)

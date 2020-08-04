@@ -20,7 +20,7 @@ func Initialize() {
 	createDatabase()
 	createBucket()
 
-	log.Infof("Storage initialized, saving to: %s", dbPath)
+	log.Infof("Storage initialized, saving to %s", dbPath)
 }
 
 func Save(usage types.Usage) {
