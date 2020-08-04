@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	dbPath     = "/var/lib/smartmeter/usage.db"
+	dbPath     = "./smartmeter.db"
 	bucketName = "Usage"
 )
 
