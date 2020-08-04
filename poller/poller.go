@@ -3,11 +3,12 @@ package poller
 import (
 	"bufio"
 	"io"
+	"os"
 
 	"github.com/howeyc/crc16"
-	"github.com/marceldegraaf/smartmeter/log"
 	"github.com/marceldegraaf/smartmeter/types"
-	"github.com/tarm/goserial"
+	log "github.com/sirupsen/logrus"
+	serial "github.com/tarm/goserial"
 )
 
 const (

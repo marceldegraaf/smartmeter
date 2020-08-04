@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/marceldegraaf/smartmeter/log"
 	"github.com/marceldegraaf/smartmeter/types"
+	log "github.com/sirupsen/logrus"
 	"gopkg.in/mgo.v2/bson"
 )
 

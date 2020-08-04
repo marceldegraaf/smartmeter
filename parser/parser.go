@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/marceldegraaf/smartmeter/log"
 	"github.com/marceldegraaf/smartmeter/types"
+	log "github.com/sirupsen/logrus"
 )
 
 // Note that we ignore the summer/winter time indicator
